@@ -1100,7 +1100,7 @@
 	</bean>
 	
 	<bean id="commercialbanner01" class="acme.entities.banners.CommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen1.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/8YcXhS0.png" />
 		<property name="slogan" value="work hard 1" />
 		<property name="targetUrl" value="http://anotherexample1.com" />
 		<property name="creditCard" value="4534661982419844" />
@@ -1110,7 +1110,7 @@
 	</bean>
 	
 	<bean id="commercialbanner02" class="acme.entities.banners.CommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen2.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/NGLSjk6.png" />
 		<property name="slogan" value="work hard 2" />
 		<property name="targetUrl" value="http://anotherexample2.com" />
 		<property name="creditCard" value="4534661982419844" />
@@ -1120,7 +1120,7 @@
 	</bean>
 	
 	<bean id="commercialbanner03" class="acme.entities.banners.CommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen3.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/2eVF1HG.png" />
 		<property name="slogan" value="work hard 3" />
 		<property name="targetUrl" value="http://anotherexample3.com" />
 		<property name="creditCard" value="4534661982419844" />
@@ -1130,7 +1130,7 @@
 	</bean>
 	
 	<bean id="commercialbanner04" class="acme.entities.banners.CommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen4.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/fihihcF.png" />
 		<property name="slogan" value="work hard 4" />
 		<property name="targetUrl" value="http://anotherexample4.com" />
 		<property name="creditCard" value="4534661982419844" />
@@ -1141,7 +1141,7 @@
 
 	
 	<bean id="commercialbanner05" class="acme.entities.banners.CommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen5.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/MtBRoNP.png" />
 		<property name="slogan" value="work hard 5" />
 		<property name="targetUrl" value="http://anotherexample5.com" />
 		<property name="creditCard" value="4534661982419844" />
@@ -1152,7 +1152,7 @@
 	
 	
 	<bean id="noncommercialbanner01" class="acme.entities.banners.NonCommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen1.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/8YcXhS0.png" />
 		<property name="slogan" value="work hard 1" />
 		<property name="targetUrl" value="http://anotherexample1.com" />
 		<property name="jingle" value="jajajaj1" />
@@ -1160,7 +1160,7 @@
 	</bean>
 	
 	<bean id="noncommercialbanner02" class="acme.entities.banners.NonCommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen2.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/NGLSjk6.png" />
 		<property name="slogan" value="work hard 2" />
 		<property name="targetUrl" value="http://anotherexample2.com" />
 		<property name="jingle" value="jajajaj2" />
@@ -1168,7 +1168,7 @@
 	</bean>
 	
 	<bean id="noncommercialbanner03" class="acme.entities.banners.NonCommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen3.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/2eVF1HG.png" />
 		<property name="slogan" value="work hard 3" />
 		<property name="targetUrl" value="http://anotherexample3.com" />
 		<property name="jingle" value="jajajaj3" />
@@ -1176,7 +1176,7 @@
 	</bean>
 	
 	<bean id="noncommercialbanner04" class="acme.entities.banners.NonCommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen4.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/fihihcF.png" />
 		<property name="slogan" value="work hard 4" />
 		<property name="targetUrl" value="http://anotherexample4.com" />
 		<property name="jingle" value="jajajaj4" />
@@ -1184,7 +1184,7 @@
 	</bean>
 	
 	<bean id="noncommercialbanner05" class="acme.entities.banners.NonCommercialBanner">
-		<property name="pictureUrl" value="http://ejemploimagen5.com" />
+		<property name="pictureUrl" value="https://i.imgur.com/MtBRoNP.png" />
 		<property name="slogan" value="work hard 5" />
 		<property name="targetUrl" value="http://anotherexample5.com" />
 		<property name="jingle" value="jajajaj5" />
