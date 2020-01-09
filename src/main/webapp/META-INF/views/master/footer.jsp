@@ -36,4 +36,8 @@
 		<acme:footer-copyright code="master.company.name"/>
 	</acme:footer-logo>		
 	
-</acme:footer-panel>
+</acme:footer-panel><br>
+
+<div class="bannerImage">
+	<img src="${banner.pictureUrl}" alt="${banner.slogan}" />
+</div>
