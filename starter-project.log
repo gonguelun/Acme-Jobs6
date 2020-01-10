@@ -1,0 +1,12 @@
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-jobs/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:373): bound must be greater than origin; nested exception is java.lang.IllegalArgumentException: bound must be greater than origin
+java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:378): bound must be greater than origin
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-jobs/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:373): bound must be greater than origin; nested exception is java.lang.IllegalArgumentException: bound must be greater than origin
+java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:378): bound must be greater than origin
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-jobs/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:373): bound must be greater than origin; nested exception is java.lang.IllegalArgumentException: bound must be greater than origin
+java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:378): bound must be greater than origin

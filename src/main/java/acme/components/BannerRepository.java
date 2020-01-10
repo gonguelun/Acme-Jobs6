@@ -29,7 +29,10 @@ public interface BannerRepository extends AbstractRepository {
 
 		bannerCount = this.countBanners();
 		random = ThreadLocalRandom.current();
-		bannerIndex = random.nextInt(0, bannerCount);
+		bannerIndex = 0;
+		if (bannerCount != 0) {
+			bannerIndex = random.nextInt(0, bannerCount);
+		}
 
 		page = PageRequest.of(bannerIndex, 1);
 		list = this.findManyBanners(page);

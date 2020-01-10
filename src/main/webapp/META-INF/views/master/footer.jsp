@@ -38,6 +38,8 @@
 	
 </acme:footer-panel><br>
 
-<div class="bannerImage">
-	<img src="${banner.pictureUrl}" alt="${banner.slogan}" />
-</div>
+<jstl:if test="${banner!='null'}">
+	<div class="bannerImage">
+		<img src="${banner.pictureUrl}" alt="${banner.slogan}" />
+	</div>
+</jstl:if>
