@@ -16,17 +16,6 @@ bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>355</x>
-      <y>140</y>
-      <w>400</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>780.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
       <x>150</x>
@@ -70,17 +59,6 @@ bg=blue</panel_attributes>
     <panel_attributes>lt=..
 </panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>310</x>
-      <y>140</y>
-      <w>445</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>870.0;10.0;10.0;200.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -176,36 +154,6 @@ ACCEPTED
 REJECTED
 
 bg=orange</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>285</x>
-      <y>175</y>
-      <w>100</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Role&gt;&gt;
-Provider
---
-+ company: String {NotBlank}
-+ sector: String {NotBlank}</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>285</x>
-      <y>240</y>
-      <w>105</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Role&gt;&gt;
-Consumer
---
-+ company: String {NotBlank}
-+ sector: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

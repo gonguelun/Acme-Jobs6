@@ -63,21 +63,7 @@ master.menu.administrator.investor-record = Investor records
 master.menu.administrator.investor-record.create = Create investor record
 master.menu.administrator.company-record = Company records
 master.menu.administrator.company-record.create = Create company record
-master.menu.administrator.non-commercial-banner = Non commercial banners
-master.menu.administrator.commercial-banner = Commercial banners
-master.menu.administrator.commercial-banner.create = Create commercial banner
-master.menu.administrator.non-commercial-banner.create = Create non commercial banner
 master.menu.administrator.auditor=Auditor requests
-
-# master.menu.provider ########################################################
-
-master.menu.provider = Provider
-master.menu.provider.features.request.create = Create request
-
-# master.menu.consumer ##########################################################
-
-master.menu.consumer = Consumer
-master.menu.consumer.offers.create = Create offers
 
 # master.menu.worker ##########################################################
 
@@ -116,10 +102,6 @@ master.menu.user-account.worker=Worker data
 master.menu.user-account.become-worker=Become a worker
 master.menu.user-account.auditor=Auditor data
 master.menu.user-account.become-auditor=Become auditor
-master.menu.user-account.provider = Provider data
-master.menu.user-account.become-provider = Become a provider
-master.menu.user-account.consumer = Consumer data
-master.menu.user-account.become-consumer = Become a consumer
 master.menu.user-account.sponsor=Sponsor data
 master.menu.user-account.become-sponsor=Become a sponsor
 
@@ -134,7 +116,6 @@ master.footer.label.twitter = Twitter
 master.footer.title.languages = Languages
 master.footer.label.english = English
 master.footer.label.spanish = Spanish
-
 # master.company ##############################################################
 
 master.company.title = La compañía
