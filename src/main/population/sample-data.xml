@@ -275,6 +275,13 @@
 				<property name="name" value="Employer"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="employer1@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -332,6 +339,13 @@
 				<property name="name" value="Employer"/>
 				<property name="surname" value="Two"/>
 				<property name="email" value="employer2@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -466,6 +480,13 @@
 				<property name="name" value="Auditor"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="auditor1@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -505,6 +526,13 @@
 				<property name="name" value="Auditor"/>
 				<property name="surname" value="Two"/>
 				<property name="email" value="auditor2@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -596,6 +624,13 @@
 				<property name="name" value="Worker"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="worker1@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -661,6 +696,13 @@
 				<property name="name" value="Worker"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="worker2@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -690,6 +732,13 @@
 				<property name="name" value="Worker"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="worker3@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -719,6 +768,13 @@
 				<property name="name" value="Worker"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="worker4@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -748,6 +804,7 @@
 				<property name="name" value="Worker"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="worker5@acme.com"/>
+				<property name="phone"><null/></property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -777,6 +834,13 @@
 				<property name="name" value="Worker"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="worker6@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -890,6 +954,13 @@
 				<property name="name" value="Authenticated"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="authenticated1@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -912,6 +983,13 @@
 				<property name="name" value="Authenticated"/>
 				<property name="surname" value="two"/>
 				<property name="email" value="authenticated2@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -1050,6 +1128,13 @@
 				<property name="name" value="sponsor"/>
 				<property name="surname" value="One"/>
 				<property name="email" value="sponsor1@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">
@@ -1081,6 +1166,13 @@
 				<property name="name" value="sponsor"/>
 				<property name="surname" value="Two"/>
 				<property name="email" value="sponsor2@acme.com"/>
+				<property name="phone">
+					<bean class="acme.datatypes.Phone">
+						<property name="countryCode" value="1"/>
+						<property name="areaCode" value="234"/>
+						<property name="number" value="567890"/>
+					</bean>
+				</property>
 			</bean>
 		</property>
 		<property name="roles">

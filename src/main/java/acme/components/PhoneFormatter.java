@@ -22,11 +22,11 @@ public class PhoneFormatter implements Formatter<Phone> {
 		String result;
 		String countryCodeText, areaCodeText, numberText;
 
-		countryCodeText = String.format("+%d", object.getCountryCode());
-		areaCodeText = object.getAreaCode() == null ? " " : String.format(" (%d) ", object.getAreaCode());
+		countryCodeText = String.format("%d", object.getCountryCode());
+		areaCodeText = object.getAreaCode() == null ? " " : String.format(" (%s) ", object.getAreaCode());
 		numberText = String.format("%s", object.getNumber());
 
-		result = String.format("%d%s%ld", countryCodeText, areaCodeText, numberText);
+		result = String.format("+%s%s%s", countryCodeText, areaCodeText, numberText);
 
 		return result;
 	}
@@ -47,7 +47,7 @@ public class PhoneFormatter implements Formatter<Phone> {
 
 		countryCodeRegex = "\\+\\d{1,3}";
 		areaCodeRegex = "\\d{1,6}";
-		numberRegex = "\\d{1,9}([\\s-]\\d{1,9}{0,5}";
+		numberRegex = "\\d{1,9}([\\s-])\\d{1,9}{0,5}";
 		phoneRegex = String.format( //
 			"^\\s*(?<CC>%1$s)(\\s+\\((?<AC>%2$s)\\)\\s+|\\s+)(?<N>%3$s)\\s*$", //
 			countryCodeRegex, //
@@ -62,7 +62,7 @@ public class PhoneFormatter implements Formatter<Phone> {
 			errorMessage = MessageHelper.getMessage("default.error.conversion", null, "Invalid value", locale);
 			throw new ParseException(0, errorMessage);
 		} else {
-			countryCodeText = matcher.group("C");
+			countryCodeText = matcher.group("CC");
 			countryCode = Integer.valueOf(countryCodeText);
 			areaCode = matcher.group("AC");
 			number = matcher.group("N");
