@@ -66,13 +66,14 @@ public class EmployerJobCreateService implements AbstractCreateService<Employer,
 		Date deadLineMoment;
 		Boolean isFutureDate;
 
-		deadLineMoment = request.getModel().getDate("deadline");
+		if (!errors.hasErrors("deadline")) {
+			deadLineMoment = request.getModel().getDate("deadline");
 
-		if (deadLineMoment != null) {
-			isFutureDate = deadLineMoment.after(Calendar.getInstance().getTime());
-			errors.state(request, isFutureDate, "deadline", "employer.job.error.future");
+			if (deadLineMoment != null) {
+				isFutureDate = deadLineMoment.after(Calendar.getInstance().getTime());
+				errors.state(request, isFutureDate, "deadline", "employer.job.error.future");
+			}
 		}
-
 		boolean isEuro;
 
 		if (entity.getSalary() != null) {
@@ -83,6 +84,7 @@ public class EmployerJobCreateService implements AbstractCreateService<Employer,
 		boolean isDuplicated;
 		isDuplicated = this.repository.findJobByReference(entity.getReference()) != null;
 		errors.state(request, !isDuplicated, "reference", "employer.job.error.duplicated");
+
 	}
 
 	@Override

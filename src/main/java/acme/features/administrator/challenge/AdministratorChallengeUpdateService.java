@@ -82,14 +82,16 @@ public class AdministratorChallengeUpdateService implements AbstractUpdateServic
 			errors.state(request, isEuroBronze, "rewardBronze", "administrator.challenge.error.must-be-euro");
 		}
 
-		Date deadLineMoment;
-		Boolean isFutureDate;
+		if (!errors.hasErrors("deadline")) {
+			Date deadLineMoment;
+			Boolean isFutureDate;
 
-		deadLineMoment = request.getModel().getDate("deadline");
+			deadLineMoment = request.getModel().getDate("deadline");
 
-		if (deadLineMoment != null) {
-			isFutureDate = deadLineMoment.after(Calendar.getInstance().getTime());
-			errors.state(request, isFutureDate, "deadline", "administrator.challenge.error.must-be-future");
+			if (deadLineMoment != null) {
+				isFutureDate = deadLineMoment.after(Calendar.getInstance().getTime());
+				errors.state(request, isFutureDate, "deadline", "administrator.challenge.error.must-be-future");
+			}
 		}
 	}
 
