@@ -141,16 +141,17 @@ public class EmployerJobUpdateService implements AbstractUpdateService<Employer,
 
 			}
 
-			Date deadLineMoment;
-			Boolean isFutureDate;
+			if (!errors.hasErrors("deadline")) {
+				Date deadLineMoment;
+				Boolean isFutureDate;
 
-			deadLineMoment = request.getModel().getDate("deadline");
+				deadLineMoment = request.getModel().getDate("deadline");
 
-			if (deadLineMoment != null) {
-				isFutureDate = deadLineMoment.after(Calendar.getInstance().getTime());
-				errors.state(request, isFutureDate, "deadline", "employer.job.error.future");
+				if (deadLineMoment != null) {
+					isFutureDate = deadLineMoment.after(Calendar.getInstance().getTime());
+					errors.state(request, isFutureDate, "deadline", "employer.job.error.future");
+				}
 			}
-
 			boolean isEuro;
 
 			if (entity.getSalary() != null) {
